@@ -6,7 +6,7 @@ const ASSET_PATH = process.env.ASSET_PATH || '/';
 const deps = require('./package.json').dependencies;
 module.exports = (_, argv) => ({
   output: {
-    publicPath: `https://side-projects-overkill.github.io/mf-home/`,
+    publicPath: 'auto'
   },
 
   resolve: {
