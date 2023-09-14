@@ -63,6 +63,7 @@ module.exports = (_, argv) => ({
     }),
     new HtmlWebPackPlugin({
       template: "./src/index.html",
+      baseUrl: 'mf-home',
     }),
   ],
 });
